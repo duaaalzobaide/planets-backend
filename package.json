@@ -1,0 +1,40 @@
+{
+  "name": "planet",
+  "version": "1.0.0",
+  "description": "planets description",
+  "main": "server.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/server.js",
+    "test": "npm test "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duaaalzobaide/planets.git"
+  },
+  "keywords": [
+    "planet"
+  ],
+  "author": "duaa alzobaide",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.0",
+    "mongoose": "^4.13.21",
+    "nodemon": "^2.0.6",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duaaalzobaide/planets/issues"
+  },
+  "homepage": "https://github.com/duaaalzobaide/planets#readme"
+}
